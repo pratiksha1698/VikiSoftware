@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Camera">
+    <Button
+        android:id="@+id/btntakephoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@drawable/oval"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:text="Capture a Photo" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/imgdispphoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_blue_dark"
+        >
+    </ImageView>
+
+</LinearLayout>
